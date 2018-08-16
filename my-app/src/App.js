@@ -43,6 +43,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <header className="App-header">
           <h1 className="App-title">World Flag Clicky-Game</h1>
           <p className="App-intro">
@@ -65,7 +66,7 @@ class App extends Component {
         </Wrapper>
         <footer>
           <h3 class="white-text">Link</h3>
-            <a class="grey-text text-lighten-3" id='link' target='_blank' href="https://github.com/Avickerman/Clicky-Game">My GitHub Repo</a>
+          <a class="grey-text text-lighten-3" id='link' target='_blank' href="https://github.com/Avickerman/Clicky-Game">My GitHub Repo</a>
         </footer>
       </div>
     );
